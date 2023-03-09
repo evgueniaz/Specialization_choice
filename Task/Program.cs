@@ -18,10 +18,8 @@ void CheckArray(string[] set_elems)
     {
         if (set_elems[i].Length > 2) 
         {
-            // resultSet[i] = set_elems[i];
             resultSet = resultSet.Append(set_elems[i]).ToArray();
         }
-        // resultSet = resultSet.Where(x => !string.IsNullOrEmpty(x)).ToArray();
     }
 }
 
