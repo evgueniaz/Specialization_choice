@@ -1,4 +1,4 @@
-﻿// Console.WriteLine("Enter a number of elements in your array: ");
+﻿
 int array_length = EnterNumber("Enter a number of elements in your array");
 string[] setOfElements = new string[array_length];
 string[] resultSet = new string[0]; 
