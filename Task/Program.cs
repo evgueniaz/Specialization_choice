@@ -16,7 +16,7 @@ void CheckArray(string[] set_elems)
 {
     for (int i = 0; i < array_length; i++)
     {
-        if (set_elems[i].Length > 2) 
+        if (set_elems[i].Length < 4) 
         {
             resultSet = resultSet.Append(set_elems[i]).ToArray();
         }
